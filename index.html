@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop Designs - Inverse Collection</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #f5f5f5;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+        
+        .design-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .design-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .design-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        
+        .design-preview {
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        .dark-neon .design-preview {
+            background: #0A0A0A;
+            color: #00FF88;
+            border-bottom: 3px solid #00FF88;
+        }
+        
+        .light-gold .design-preview {
+            background: #FFFFFF;
+            color: #D4AF37;
+            border-bottom: 3px solid #D4AF37;
+        }
+        
+        .cool-slate .design-preview {
+            background: #F1F5F9;
+            color: #0D9488;
+            border-bottom: 3px solid #0D9488;
+        }
+        
+        .design-content {
+            padding: 1.5rem;
+        }
+        
+        .design-content h2 {
+            margin-bottom: 0.5rem;
+            font-size: 1.5rem;
+        }
+        
+        .design-content .vibe {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 1rem;
+        }
+        
+        .color-palette {
+            display: flex;
+            gap: 0.5rem;
+            margin: 1rem 0;
+        }
+        
+        .color-swatch {
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
+            border: 2px solid #e0e0e0;
+        }
+        
+        .design-content a {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.75rem 1.5rem;
+            background: #4F46E5;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 500;
+        }
+        
+        .design-content a:hover {
+            background: #4338CA;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Workshop Designs</h1>
+        <p>Inverse Collection - 3 Alternative Color Schemes</p>
+    </header>
+    
+    <div class="container">
+        <p style="text-align: center; font-size: 1.1rem; color: #555;">
+            Alternative design versions for the <strong>Local Business Launch Workshop</strong>. 
+            Each inverse design offers a completely different vibe while maintaining the same structure.
+        </p>
+        
+        <div class="design-grid">
+            <div class="design-card dark-neon">
+                <div class="design-preview">
+                    Dark Neon
+                </div>
+                <div class="design-content">
+                    <h2>Version 1: Dark Neon</h2>
+                    <p class="vibe">Cyberpunk, cutting-edge, high energy</p>
+                    <p>Inverse of the Light Professional design. Perfect for younger entrepreneurs and tech-forward businesses.</p>
+                    
+                    <div class="color-palette">
+                        <div class="color-swatch" style="background: #0A0A0A;" title="Background: #0A0A0A"></div>
+                        <div class="color-swatch" style="background: #00FF88;" title="Accent: #00FF88"></div>
+                        <div class="color-swatch" style="background: #1A1A2E;" title="Secondary: #1A1A2E"></div>
+                    </div>
+                    
+                    <a href="INVERSE-V1-DARK-NEON.md">View Full Specs</a>
+                </div>
+            </div>
+            
+            <div class="design-card light-gold">
+                <div class="design-preview">
+                    Light Gold
+                </div>
+                <div class="design-content">
+                    <h2>Version 2: Light Gold</h2>
+                    <p class="vibe">Premium luxury, professional, elegant</p>
+                    <p>Inverse of the Dark Bold design. Ideal for professional services, consultants, and premium offerings.</p>
+                    
+                    <div class="color-palette">
+                        <div class="color-swatch" style="background: #FFFFFF; border: 1px solid #ddd;" title="Background: #FFFFFF"></div>
+                        <div class="color-swatch" style="background: #D4AF37;" title="Accent: #D4AF37"></div>
+                        <div class="color-swatch" style="background: #F8F6F1;" title="Secondary: #F8F6F1"></div>
+                    </div>
+                    
+                    <a href="INVERSE-V2-LIGHT-GOLD.md">View Full Specs</a>
+                </div>
+            </div>
+            
+            <div class="design-card cool-slate">
+                <div class="design-preview">
+                    Cool Slate
+                </div>
+                <div class="design-content">
+                    <h2>Version 3: Cool Slate</h2>
+                    <p class="vibe">Modern, calming, trustworthy</p>
+                    <p>Inverse of the Warm Community design. Great for wellness businesses, creatives, and modern services.</p>
+                    
+                    <div class="color-palette">
+                        <div class="color-swatch" style="background: #F1F5F9;" title="Background: #F1F5F9"></div>
+                        <div class="color-swatch" style="background: #0D9488;" title="Accent: #0D9488"></div>
+                        <div class="color-swatch" style="background: #E2E8F0;" title="Secondary: #E2E8F0"></div>
+                    </div>
+                    
+                    <a href="INVERSE-V3-COOL-SLATE.md">View Full Specs</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Created for Stu Sutherland / Cereal City Buzz</p>
+        <p>Local Business Launch Workshop - Design System</p>
+    </footer>
+</body>
+</html>
