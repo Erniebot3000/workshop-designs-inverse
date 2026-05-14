@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Business Launch Workshop - Dark Neon</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Space Grotesk', 'JetBrains Mono', monospace;
+            background: #0A0A0A;
+            color: #FFFFFF;
+            line-height: 1.6;
+        }
+        .hero {
+            background: linear-gradient(135deg, #0A0A0A 0%, #1A1A2E 100%);
+            padding: 4rem 2rem;
+            text-align: center;
+            border-bottom: 3px solid #00FF88;
+        }
+        .badge {
+            display: inline-block;
+            background: transparent;
+            border: 2px solid #00FF88;
+            color: #00FF88;
+            padding: 0.5rem 1.5rem;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+        .highlight { color: #00FF88; text-shadow: 0 0 20px rgba(0, 255, 136, 0.5); }
+        .subheadline {
+            font-size: 1.3rem;
+            color: #B0B0B0;
+            max-width: 700px;
+            margin: 0 auto 2rem;
+            font-family: Inter, sans-serif;
+        }
+        .cta-button {
+            display: inline-block;
+            background: transparent;
+            border: 2px solid #00FF88;
+            color: #00FF88;
+            padding: 1rem 2.5rem;
+            font-size: 1.1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            transition: all 0.3s;
+            font-family: monospace;
+        }
+        .cta-button:hover {
+            background: #00FF88;
+            color: #0A0A0A;
+            box-shadow: 0 0 30px rgba(0, 255, 136, 0.6);
+        }
+        .section {
+            padding: 4rem 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .section-title {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            color: #00FF88;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .feature-card {
+            background: #1A1A2E;
+            border: 1px solid #2A2A3E;
+            padding: 2rem;
+            border-radius: 4px;
+            transition: all 0.3s;
+        }
+        .feature-card:hover {
+            border-color: #00FF88;
+            box-shadow: 0 0 20px rgba(0, 255, 136, 0.2);
+        }
+        .feature-card h3 {
+            color: #00FF88;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+        .feature-card p {
+            color: #B0B0B0;
+            font-family: Inter, sans-serif;
+        }
+        .pricing {
+            background: #1A1A2E;
+            padding: 3rem;
+            border-radius: 4px;
+            border: 1px solid #00FF88;
+            text-align: center;
+            margin-top: 2rem;
+        }
+        .price-tag {
+            font-size: 3rem;
+            color: #00FF88;
+            margin: 1rem 0;
+        }
+        .footer {
+            text-align: center;
+            padding: 3rem 2rem;
+            border-top: 1px solid #2A2A3E;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="badge">FREE 3-Day Workshop</div>
+        <h1>Build Your <span class="highlight">Lead System</span></h1>
+        <p class="subheadline">Grow Your Email List and Stay Connected With Customers—Without Expensive Software, Tech Headaches, or Doing It Alone</p>
+        <a href="#register" class="cta-button">Save My Spot (It's Free)</a>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Here's What You'll Build</h2>
+        <div class="features">
+            <div class="feature-card">
+                <h3>01. Your Own Domain</h3>
+                <p>Your business website address (yourname.com) - establish your professional online presence.</p>
+            </div>
+            <div class="feature-card">
+                <h3>02. Lead Magnet Created</h3>
+                <p>A free guide, checklist, or resource your customers actually want and need.</p>
+            </div>
+            <div class="feature-card">
+                <h3>03. Lead Capture Page</h3>
+                <p>A simple page where people enter their email to get your lead magnet.</p>
+            </div>
+            <div class="feature-card">
+                <h3>04. Email Follow-Up System</h3>
+                <p>3 automated emails that go out without you lifting a finger.</p>
+            </div>
+            <div class="feature-card">
+                <h3>05. Facebook Group</h3>
+                <p>A community where you can stay connected with your customers.</p>
+            </div>
+            <div class="feature-card">
+                <h3>06. Everything Connected</h3>
+                <p>We'll make sure it all works before you leave. No guesswork.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">The Investment</h2>
+        <div class="pricing">
+            <p style="color: #B0B0B0; margin-bottom: 1rem;">The Workshop: FREE (my time is free)</p>
+            <div class="price-tag">$35.49</div>
+            <p style="color: #B0B0B0;">Total upfront cost</p>
+            <p style="margin-top: 2rem; color: #666;">Domain: $10.49/year • SMTP: $25/month • Software: FREE 90 days</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Battle Creek & Southwest Michigan Business Owners</p>
+        <p style="margin-top: 1rem; font-size: 0.9rem;">Limited to 10 people • Hands-on help guaranteed</p>
+    </div>
+</body>
+</html>

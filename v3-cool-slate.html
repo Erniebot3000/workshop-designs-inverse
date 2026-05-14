@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Business Launch Workshop - Cool Slate</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: #F1F5F9;
+            color: #0F172A;
+            line-height: 1.6;
+        }
+        .hero {
+            background: linear-gradient(135deg, #F1F5F9 0%, #E2E8F0 100%);
+            padding: 5rem 2rem;
+            text-align: center;
+        }
+        .badge {
+            display: inline-block;
+            background: #0D9488;
+            color: #FFFFFF;
+            padding: 0.6rem 1.5rem;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin-bottom: 2rem;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+        .highlight { color: #0D9488; }
+        .subheadline {
+            font-size: 1.25rem;
+            color: #475569;
+            max-width: 650px;
+            margin: 0 auto 2.5rem;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #0D9488;
+            color: #FFFFFF;
+            padding: 1rem 2.5rem;
+            font-size: 1.1rem;
+            text-decoration: none;
+            border-radius: 12px;
+            font-weight: 500;
+            transition: all 0.3s;
+            box-shadow: 0 2px 8px rgba(13, 148, 136, 0.2);
+        }
+        .cta-button:hover {
+            background: #14B8A6;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(13, 148, 136, 0.3);
+        }
+        .section {
+            padding: 5rem 2rem;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .section-title {
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            text-align: center;
+            font-weight: 700;
+            color: #0F172A;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+        }
+        .feature-card {
+            background: #FFFFFF;
+            border: 1px solid #E2E8F0;
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s;
+        }
+        .feature-card:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            transform: translateY(-4px);
+        }
+        .feature-card h3 {
+            color: #0D9488;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+        .feature-card p {
+            color: #475569;
+            line-height: 1.7;
+        }
+        .pricing {
+            background: #FFFFFF;
+            padding: 4rem;
+            border-radius: 12px;
+            text-align: center;
+            margin-top: 3rem;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+        }
+        .price-tag {
+            font-size: 4rem;
+            color: #0D9488;
+            margin: 1.5rem 0;
+            font-weight: 700;
+        }
+        .footer {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: #E2E8F0;
+            color: #475569;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="badge">FREE 3-Day Workshop</div>
+        <h1>Build Your <span class="highlight">Lead System</span>,<br>Grow Your Email List</h1>
+        <p class="subheadline">Stay Connected With Customers—Without Expensive Software, Tech Headaches, or Doing It Alone</p>
+        <a href="#register" class="cta-button">Save My Spot (It's Free)</a>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Here's What You'll Build</h2>
+        <div class="features">
+            <div class="feature-card">
+                <h3>Your Own Domain</h3>
+                <p>Your business website address (yourname.com) - establish your professional online presence.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Lead Magnet Created</h3>
+                <p>A free guide, checklist, or resource your customers actually want and need.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Lead Capture Page</h3>
+                <p>A simple page where people enter their email to get your lead magnet.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Email Follow-Up System</h3>
+                <p>3 automated emails that go out without you lifting a finger.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Facebook Group</h3>
+                <p>A community where you can stay connected with your customers.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Everything Connected</h3>
+                <p>We'll make sure it all works before you leave. No guesswork.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Simple Pricing</h2>
+        <div class="pricing">
+            <p style="color: #475569; margin-bottom: 1rem; font-size: 1.1rem;">The Workshop: FREE</p>
+            <div class="price-tag">$35.49</div>
+            <p style="color: #475569; font-size: 1.1rem;">Total upfront cost</p>
+            <p style="margin-top: 2rem; color: #64748B;">Domain: $10.49/year • SMTP: $25/month • Software: FREE 90 days</p>
+            <a href="#register" class="cta-button" style="margin-top: 2rem;">Get Started Today</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p style="font-size: 1.1rem; margin-bottom: 0.5rem;">Battle Creek & Southwest Michigan Business Owners</p>
+        <p>Limited to 10 people • Hands-on help guaranteed</p>
+    </div>
+</body>
+</html>
